@@ -1,18 +1,26 @@
 {
-  "name": "xUi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "xjk-ui",
+  "author": "Jonathan",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/xui.cjs.js",
+  "module": "dist/xui.es.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "vue": "^3.4.21"
   },
   "devDependencies": {
-    "vite": "^5.2.12"
-  }
+    "@vitejs/plugin-vue": "^5.0.4",
+    "less": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.9.1"
+  },
+	"license": "MIT"
 }
