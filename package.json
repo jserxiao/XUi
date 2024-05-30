@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docs": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
   },
   "dependencies": {
     "lodash": "^4.17.21",
@@ -17,10 +19,15 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "3.1.0",
+    "@vitepress-demo-preview/component": "2.3.2",
+    "@vitepress-demo-preview/plugin": "1.2.3",
     "less": "^4.2.0",
+    "markdown-it": "14.1.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
-    "vite-plugin-dts": "^3.9.1"
+    "vite-plugin-dts": "^3.9.1",
+    "vitepress": "1.2.2"
   },
-	"license": "MIT"
+  "license": "MIT"
 }
