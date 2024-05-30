@@ -1,10 +1,10 @@
 {
-  "name": "xjk-ui",
+  "name": "xatom",
   "author": "Jonathan",
   "version": "0.0.1",
   "type": "module",
-  "main": "dist/xui.cjs.js",
-  "module": "dist/xui.es.js",
+  "main": "dist/xatom.cjs",
+  "module": "dist/xatom.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "vite",

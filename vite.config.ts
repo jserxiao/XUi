@@ -6,7 +6,7 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
   build: {
     lib: {
-      name: 'xui',
+      name: 'xatom',
       entry: 'src/index.ts',
       formats: ['es', 'cjs', 'umd']
     },
