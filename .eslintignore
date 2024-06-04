@@ -1,0 +1,9 @@
+dist/
+node_modules/
+
+.*rc.js
+*.config.js
+*.css
+*.less
+*.json
+.vitepress/cache

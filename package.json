@@ -22,12 +22,21 @@
     "@vitejs/plugin-vue-jsx": "3.1.0",
     "@vitepress-demo-preview/component": "2.3.2",
     "@vitepress-demo-preview/plugin": "1.2.3",
+    "@vue/eslint-config-typescript": "13.0.0",
+    "eslint": "9.4.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-n": "17.7.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "6.2.0",
+    "eslint-plugin-vue": "9.26.0",
     "less": "^4.2.0",
     "markdown-it": "14.1.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.1",
-    "vitepress": "1.2.2"
+    "vitepress": "1.2.2",
+    "vue-eslint-parser": "9.4.3"
   },
   "license": "MIT"
 }

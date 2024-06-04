@@ -5,18 +5,22 @@ import viteConfig from '../../vite.config'
 export default defineConfig({
   title: "xatom ui",
   description: "一个普通前端的组件库",
+  base: '/docs/',
+  sitemap: {
+    hostname: 'https://xiaojiakun.top/docs/'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '组件', link: '/pages/Button' }
+      { text: '组件', link: '/pages/Button/' }
     ],
 
     sidebar: {
       "/pages": [{
         text: '组件',
         items: [
-          { text: 'Button', link: '/pages/Button' },
+          { text: 'Button', link: '/pages/Button/' },
         ]
       }]
     },
@@ -43,5 +47,7 @@ export default defineConfig({
       md.use(containerPreview)
     }
   },
-  vite: {resolve: viteConfig.resolve}
+  vite: {
+    resolve: viteConfig.resolve,
+  }
 })

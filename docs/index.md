@@ -12,7 +12,7 @@ hero:
       link: /
     - theme: alt
       text: 组件
-      link: /components
+      link: /pages/Button/
 
 features:
   - title: 目标
